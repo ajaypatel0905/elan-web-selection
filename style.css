@@ -1,0 +1,88 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+} */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+  
+#navbar{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin: 2px; */
+}
+#logo{
+    width: 269px;
+    height: 257px;
+    background-image: url('elannvision_logo.png');
+    margin-right: 184px;
+    
+}
+#navbar-list{
+    display: flex;
+    list-style: none;
+    color: white;
+   
+}
+.navbar-element{
+   
+    font-weight: bold;
+    font-family: 'Otomanopee One', sans-serif;
+    
+    margin: 3px;
+    color: white;
+    
+    
+}
+.navbar-element  a:hover{
+   
+    font-weight: bold;
+    font-family: 'Otomanopee One', sans-serif;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    border:2px solid black;
+    color:black;
+    
+    
+    
+}
+.active{
+    font-weight: bold;
+    font-family: 'Otomanopee One', sans-serif;
+   background-color: white;
+   border-radius: 10px;
+   border:2px solid black;
+   color:black;
+}
+.nav-link{
+    color: white;
+}
+ /* .para-text{
+    font-weight: bold;
+} */
+.intro-para{
+    margin-top: 30px;
+    padding: 30px;
+} 
+.about-img{
+    opacity: 0.2;
+}
+.cardText{
+    font-size: 18px;
+    margin:35px 50px;
+}
+@media only screen and (max-width: 800px){
+    .cardText{
+        font-size: 12px;
+    }
+}
+.events-heading{
+    
+}
