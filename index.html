@@ -20,184 +20,221 @@
 <script src="https://kit.fontawesome.com/08c9c0f86a.js" crossorigin="anonymous"></script>
 
 <body>
-    <header>
-        <div class="main-container">
-            <video autoplay muted loop id="myVideo">
-                <source src="animate1.mp4" type="video/mp4">
-            </video>
-            <nav class="navbar navbar-expand-lg  ">
-                <span><img src="elannvision_logo.png" id="logo" alt=""></span>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                    aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <div>
+        <header>
+            <div class="main-container">
+                <video autoplay muted loop id="myVideo">
+                    <source src="animate1.mp4" type="video/mp4">
+                </video>
+                <div>
+                    <nav class="navbar navbar-expand-lg  ">
+                        <span><img src="elannvision_logo.png" id="logo" alt=""></span>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active navbar-element">
-                            <a class="nav-link text-dark " href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item navbar-element ">
-                            <a class="nav-link  " href="#">Events</a>
-                        </li>
-                        <li class="nav-item navbar-element ">
-                            <a class="nav-link  " href="#">Sponsors</a>
-                        </li>
-                        <li class="nav-item navbar-element ">
-                            <a class="nav-link   " href="#">About us</a>
-                        </li>
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                <li class="nav-item active navbar-element">
+                                    <a class="nav-link text-dark " href="#">Home <span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item navbar-element ">
+                                    <a class="nav-link  " aria-controls="Events" href="#Events">Events</a>
+                                </li>
+                                <li class="nav-item navbar-element ">
+                                    <a class="nav-link " aria-controls="Sponsors" href="#Sponsors">Sponsors</a>
+                                </li>
+                                <li class="nav-item navbar-element ">
+                                    <a class="nav-link  " aria-controls="stats" href="#stats">General-stats</a>
+                                </li>
+
+
+                                <li class="nav-item navbar-element ">
+                                    <a class="nav-link " aria-controls="About" href="#About">About us</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="details-container">
+            <div class=" text-white intro-para  ">
+                <div class="col-md-6 px-0">
+
+                    <h1 class="display-4 font-italic font-weight-bold">Introduction</h1>
+                    <p class=" my-3 font-weight-bold">
+                        This fest is held in the campus of IIT Hyderabad and is completely organized by the students.
+                        Right
+                        after the fest gets completed, preparations for the next year’s fest begin. Students of IITH
+                        amalgamate into a team and put all their efforts into organizing this fest. The whole organizing
+                        team is divided into 19 domains. Each domain has its own motive and functionality. All the
+                        domains
+                        coordinate with each other and host this fabulous fest.
+                    </p>
+
+                </div>
+            </div>
+
+            <div id="Events" data-target="#Events">
+
+                <div class="col-md-12 text-center text-white heading-background p-2 my-5">
+                    <h1 class="display-4 font-italic font-weight-bold ">Events</h1>
+                </div>
+
+
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                        <li data-target="#demo" data-slide-to="3"></li>
+                        <li data-target="#demo" data-slide-to="4"></li>
                     </ul>
 
-                </div>
-            </nav>
-        </div>
-    </header>
+                    <!-- The slideshow -->
+                    <div class="carousel-inner bg-dark d-flex align-items-center">
+                        <div class="carousel-item active">
+                            <img src="https://phantom168.github.io/Elan2021-1/images/kailashkher.JPG" alt="Los Angeles"
+                                height="auto" width="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://phantom168.github.io/Elan2021-1/images/classical.JPG" alt="#"
+                                height="auto" width="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://phantom168.github.io/Elan2021-1/images/dance.JPG" alt="#" height="auto"
+                                width="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://phantom168.github.io/Elan2021-1/images/robosoccer.JPG" alt="#"
+                                height="auto" width="100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="stage.jpg" alt="#" height="auto" width="100%">
+                        </div>
+                    </div>
 
-    <div class="details-container">
-        <div class=" text-white intro-para  ">
-            <div class="col-md-6 px-0">
-
-                <h1 class="display-4 font-italic font-weight-bold">Introduction</h1>
-                <p class="lead my-3 font-weight-bold">
-                    This fest is held in the campus of IIT Hyderabad and is completely organized by the students. Right
-                    after the fest gets completed, preparations for the next year’s fest begin. Students of IITH
-                    amalgamate into a team and put all their efforts into organizing this fest. The whole organizing
-                    team is divided into 19 domains. Each domain has its own motive and functionality. All the domains
-                    coordinate with each other and host this fabulous fest.
-                </p>
-
-            </div>
-        </div>
-
-        <div class="col-md-12 text-center text-white heading-background p-2 my-5">
-            <h1 class="display-4 font-italic font-weight-bold ">Events</h1>
-        </div>
-
-
-        <div id="demo" class="carousel slide" data-ride="carousel">
-
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-                <li data-target="#demo" data-slide-to="3"></li>
-                <li data-target="#demo" data-slide-to="4"></li>
-            </ul>
-
-            <!-- The slideshow -->
-            <div class="carousel-inner bg-dark d-flex align-items-center">
-                <div class="carousel-item active">
-                    <img src="https://phantom168.github.io/Elan2021-1/images/kailashkher.JPG" alt="Los Angeles"
-                        height="auto" width="100%">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://phantom168.github.io/Elan2021-1/images/classical.JPG" alt="#" height="auto"
-                        width="100%">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://phantom168.github.io/Elan2021-1/images/dance.JPG" alt="#" height="auto"
-                        width="100%">
-                </div>
-                <div class="carousel-item">
-                    <img src="https://phantom168.github.io/Elan2021-1/images/robosoccer.JPG" alt="#" height="auto"
-                        width="100%">
-                </div>
-                <div class="carousel-item">
-                    <img src="stage.jpg" alt="#" height="auto" width="100%">
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
                 </div>
             </div>
 
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-        </div>
+            <div id="Sponsors">
 
-        <div class="col-md-12 text-center text-white heading-background p-2 my-5">
-            <h1 class="display-4 font-italic font-weight-bold ">Sponsors</h1>
-        </div>
+                <div class="col-md-12 text-center text-white heading-background p-2 my-5">
+                    <h1 class="display-4 font-italic font-weight-bold ">Sponsors</h1>
+                </div>
 
 
-        <div class="row mx-5 my-5">
-            <div class="col-sm-6 ">
-                <div class="card">
-                    <div class="card-body shadow-lg  bg-dark rounded ">
-                        <img class="img-fluid-modified"
-                            src="https://phantom168.github.io/Elan2021-1/img/sponsors/sbi.png" height="100px">
+                <div class="row mx-5 my-5">
+                    <div class="col-sm-6 ">
+                        <div class="card">
+                            <div class="card-body shadow-lg  bg-dark rounded ">
+                                <img class="img-fluid-modified"
+                                    src="https://phantom168.github.io/Elan2021-1/img/sponsors/sbi.png" height="100px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 ">
+                        <div class="card">
+                            <div class="card-body shadow-lg  bg-dark rounded ">
+                                <img class="img-fluid-modified"
+                                    src="https://phantom168.github.io/Elan2021-1/img/sponsors/LIC.png" height="100px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mx-5 my-5">
+                    <div class="col-sm-4 ">
+                        <div class="card ">
+                            <div class="card-body shadow-lg  bg-dark rounded ">
+                                <img class="img-fluid-modified"
+                                    src="https://phantom168.github.io/Elan2021-1/img/sponsors/2020/ts.png"
+                                    height="100px">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <div class="card">
+                            <div class="card-body shadow-lg  bg-dark rounded">
+                                <img class="img-fluid-modified"
+                                    src="https://phantom168.github.io/Elan2021-1/img/sponsors/2020/tinder.png"
+                                    height="100px" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 ">
+                        <div class="card">
+                            <div class="card-body shadow-lg  bg-dark rounded">
+                                <img class="img-fluid-modified"
+                                    src="https://phantom168.github.io/Elan2021-1/img/sponsors/2020/solitaire.png"
+                                    height="100px" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 ">
-                <div class="card">
-                    <div class="card-body shadow-lg  bg-dark rounded ">
-                        <img class="img-fluid-modified"
-                            src="https://phantom168.github.io/Elan2021-1/img/sponsors/LIC.png" height="100px">
-                    </div>
+
+            <div id="stats">
+
+                <div class="col-md-12 text-center text-white heading-background p-2 my-5">
+                    <h1 class="display-4 font-italic font-weight-bold ">General Stats</h1>
+                </div>
+
+
+                <div class="col-sm-12 bg-dark p-4 my-5  mx-auto">
+                    <p class="text-white  text-center font-weight-bold">12th Edition
+                    <p>
+                    <p class="text-white text-center font-weight-bold">3 Days </p>
+                    <p class="text-white text-center font-weight-bold">50+ events </p>
+                    <p class="text-white text-center font-weight-bold">10k + average footfall </p>
+                    <p class="text-white text-center font-weight-bold">150+ Colleges </p>
                 </div>
             </div>
         </div>
 
-        <div class="row mx-5 my-5">
-            <div class="col-sm-4 ">
-                <div class="card ">
-                    <div class="card-body shadow-lg  bg-dark rounded ">
-                        <img class="img-fluid-modified"
-                            src="https://phantom168.github.io/Elan2021-1/img/sponsors/2020/ts.png" height="100px">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 ">
-                <div class="card">
-                    <div class="card-body shadow-lg  bg-dark rounded">
-                        <img class="img-fluid-modified"
-                            src="https://phantom168.github.io/Elan2021-1/img/sponsors/2020/tinder.png" height="100px"
-                            alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 ">
-                <div class="card">
-                    <div class="card-body shadow-lg  bg-dark rounded">
-                        <img class="img-fluid-modified"
-                            src="https://phantom168.github.io/Elan2021-1/img/sponsors/2020/solitaire.png" height="100px"
-                            alt="">
-                    </div>
+        <div id="About" class="mb-3">
+            <div class="card bg-dark text-white">
+                <img src="stage.jpg" class="card-img about-img img-responsive " alt="..." height="300px">
+                <div class="card-img-overlay">
+                    <h1 class="card-title text-center">About Us</h1>
+                    <p class=" cardText">This fest is held in the campus of IIT Hyderabad and is completely organized by
+                        the
+                        students. Right after the fest gets completed, preparations for the next year’s fest begin.
+                        Students
+                        of IITH amalgamate into a team and put all their efforts into organizing this fest. The whole
+                        organizing team is divided into 19 domains. Each domain has its own motive and functionality.
+                        All
+                        the domains coordinate with each other and host this fabulous fest.
+                    </p>
                 </div>
             </div>
         </div>
 
-        <div class="col-md-12 text-center text-white heading-background p-2 my-5">
-            <h1 class="display-4 font-italic font-weight-bold ">General Stats</h1>
-        </div>
+        <footer>
+            <div class=" footer col-md-12 text-center text-white  p-2 mt-5   fixed-bottom ">
+                <div class="container">
+                    <span class="text-white font-weight-bold font-italic">Copyright© elan nvision-iith-Ajay Patel </span>
+                </div>
+            </footer>
 
-
-        <div class="col-sm-12 bg-dark p-4 my-5  mx-auto">
-           <p  class="text-white  text-center font-weight-bold">12th Edition <p>
-           <p class="text-white text-center font-weight-bold">3 Days   </p>
-           <p class="text-white text-center font-weight-bold">50+ events </p>
-           <p class="text-white text-center font-weight-bold">10k + average footfall </p>
-           <p  class="text-white text-center font-weight-bold">150+ Colleges </p>
-        </div>
+        </footer>
     </div>
 
-    <footer>
-        <div class="card bg-dark text-white">
-            <img src="stage.jpg" class="card-img about-img img-responsive " alt="..." height="300px">
-            <div class="card-img-overlay">
-                <h1 class="card-title text-center">About Us</h1>
-                <p class=" cardText">This fest is held in the campus of IIT Hyderabad and is completely organized by the
-                    students. Right after the fest gets completed, preparations for the next year’s fest begin. Students
-                    of IITH amalgamate into a team and put all their efforts into organizing this fest. The whole
-                    organizing team is divided into 19 domains. Each domain has its own motive and functionality. All
-                    the domains coordinate with each other and host this fabulous fest.
-                </p>
-            </div>
-        </div>
-    </footer>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
